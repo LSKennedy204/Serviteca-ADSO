@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <!-- Fondo del ícono -->
+  <rect x="0" y="5" width="50" height="50" rx="10" fill="#FACC15"/>
+  <!-- Llave inglesa (wrench) -->
+  <path d="M30 12 C36 12 40 16 40 22 C40 26 38 29 35 31 L38 42 C38.5 43.5 37.5 45 36 45 L34 45 C32.5 45 31.5 43.5 32 42 L34 31 C31 29 29 26 29 22 C29 16 24 12 30 12Z" fill="#0F0F10"/>
+  <circle cx="30" cy="22" r="5" fill="#1E293B" stroke="#0F0F10" stroke-width="1"/>
+  <path d="M12 28 L22 18 C23 17 24.5 17.5 25 18.5 L26 21 L18 29 L19 31 L14 33 Z" fill="#0F0F10"/>
+  <!-- Texto -->
+  <text x="58" y="28" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#FACC15">Serviteca</text>
+  <text x="58" y="48" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#FFFFFF">PRO</text>
+</svg>

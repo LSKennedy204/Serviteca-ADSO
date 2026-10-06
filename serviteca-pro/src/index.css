@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+/* ── Variables de color del tema Serviteca PRO ── */
+:root {
+  --color-fondo: #0F0F10;
+  --color-tarjeta: #1E293B;
+  --color-acento: #FACC15;
+  --color-exito: #22C55E;
+  --color-error: #EF4444;
+  --color-info: #3B82F6;
+}
+
+/* ── Base ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-fondo);
+  color: #F1F5F9;
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Scrollbar personalizado ── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0F0F10;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* ── Animaciones ── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-16px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.25s ease-out;
+}
+
+.animate-slide-in {
+  animation: slideIn 0.2s ease-out;
+}
+
+/* ── Focus visible accesible ── */
+:focus-visible {
+  outline: 2px solid #FACC15;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
